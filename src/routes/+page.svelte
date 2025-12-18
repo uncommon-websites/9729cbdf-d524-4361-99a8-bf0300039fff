@@ -273,22 +273,32 @@
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
                          <div class="p-6 flex flex-col h-full bg-white text-black">
-                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Identity</div>
-                             <h4 class="text-xl font-serif">I am a reader</h4>
-                             <div class="mt-4 space-y-2">
-                                 <div class="p-3 bg-gray-50 rounded-lg flex items-center gap-3">
-                                     <div class="w-4 h-4 rounded-full border border-gray-300"></div>
-                                     <span class="text-sm">Read 10 pages</span>
+                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Your Streaks</div>
+                             <div class="space-y-4">
+                                 <div class="flex items-center justify-between">
+                                     <span class="text-sm font-medium">Morning pages</span>
+                                     <span class="text-2xl font-bold text-primary-600">47</span>
                                  </div>
+                                 <div class="flex items-center justify-between">
+                                     <span class="text-sm font-medium">Ship something</span>
+                                     <span class="text-2xl font-bold text-primary-600">12</span>
+                                 </div>
+                                 <div class="flex items-center justify-between">
+                                     <span class="text-sm font-medium">Exercise</span>
+                                     <span class="text-2xl font-bold text-primary-600">31</span>
+                                 </div>
+                             </div>
+                             <div class="mt-8 pt-4 border-t border-gray-100">
+                                 <div class="text-xs text-gray-500">Total check-ins: 90 days</div>
                              </div>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Not just habits</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Identity-based<br>habits</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Visible progress</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Streaks that<br>create pressure</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Most apps focus on outcome-based habits. We help you focus on identity-based habits. It's not about what you want to achieve. It's about who you wish to become.
+                        Your streak count is always visible. That visibility creates gentle pressure. The pressure creates consistency. Consistency creates identity.
                     </p>
                 </div>
                 <!-- Abstract BG -->
@@ -299,20 +309,40 @@
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-20 text-white relative overflow-hidden flex flex-col md:flex-row-reverse items-center gap-12">
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
-                         <div class="p-6 flex flex-col h-full bg-white text-black items-center justify-center">
-                             <div class="w-20 h-20 rounded-full bg-orange-100 flex items-center justify-center mb-4">
-                                 <span class="text-2xl">🏆</span>
+                         <div class="p-6 flex flex-col h-full bg-white text-black">
+                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Your Group</div>
+                             <div class="space-y-3">
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
+                                     <div class="flex-1">
+                                         <div class="text-sm font-medium">Alex K.</div>
+                                         <div class="text-xs text-gray-500">3/3 today</div>
+                                     </div>
+                                     <div class="text-xs text-primary-600 font-bold">✓</div>
+                                 </div>
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
+                                     <div class="flex-1">
+                                         <div class="text-sm font-medium">Jordan M.</div>
+                                         <div class="text-xs text-gray-500">2/3 today</div>
+                                     </div>
+                                 </div>
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
+                                     <div class="flex-1">
+                                         <div class="text-sm font-medium">You</div>
+                                         <div class="text-xs text-gray-500">1/3 today</div>
+                                     </div>
+                                 </div>
                              </div>
-                             <h4 class="text-xl font-serif text-center">Habit Master</h4>
-                             <p class="text-sm text-gray-500 text-center mt-2">100 Days Streak</p>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Supportive environment</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">A journey with<br>support</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Invite-driven</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Curated<br>accountability</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Atoms connects you with people on the same journey. Share progress, celebrate wins, and find accountability partners.
+                        Join invite-only groups of serious practitioners. No vanity posting, no engagement farming. Just ambient awareness of others showing up daily.
                     </p>
                 </div>
             </div>
@@ -321,79 +351,94 @@
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-20 text-white relative overflow-hidden flex flex-col md:flex-row items-center gap-12">
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
-                         <div class="p-6 flex flex-col h-full bg-white text-black">
-                             <div class="bg-black text-white p-4 rounded-xl mb-4">
-                                 <p class="text-sm font-medium">Time to read!</p>
-                                 <p class="text-xs text-gray-400 mt-1">It's 8:00 PM. Grab your book.</p>
+                         <div class="p-6 flex flex-col h-full bg-white text-black items-center justify-center">
+                             <div class="text-center mb-8">
+                                 <div class="text-6xl font-serif mb-2">✓</div>
+                                 <p class="text-sm text-gray-500">Check-in complete</p>
                              </div>
+                             <div class="text-xs text-gray-400">Time taken: 42 seconds</div>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Habit reminders</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Everyone<br>needs a nudge</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Under 60 seconds</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Frictionless<br>check-ins</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Set up reminders that work for you. Never miss a habit again with our flexible notification system.
+                        No long notes. No complex scoring. Just mark completion and move on. The product explicitly respects your time and attention.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Daily Lessons -->
+    <!-- Core Principles -->
     <section class="py-24 bg-[#FCFAF7]">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-serif mb-12">Daily Lessons</h2>
+            <h2 class="text-3xl font-serif mb-12">Core Principles</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Lesson 1 -->
+                <!-- Principle 1 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">01</div>
-                    <h3 class="text-2xl font-serif">Make Your Habits Fun</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs text-primary-700 font-bold">01</div>
+                    <h3 class="text-2xl font-serif">Systems Over Motivation</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Learn More -></div>
                 </div>
-                 <!-- Lesson 2 -->
+                 <!-- Principle 2 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">02</div>
-                    <h3 class="text-2xl font-serif">Aim to Be Great in 10 Years</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs text-primary-700 font-bold">02</div>
+                    <h3 class="text-2xl font-serif">Execution Over Reflection</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Learn More -></div>
                 </div>
-                 <!-- Lesson 3 -->
+                 <!-- Principle 3 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">03</div>
-                    <h3 class="text-2xl font-serif">Start Small</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs text-primary-700 font-bold">03</div>
+                    <h3 class="text-2xl font-serif">Identity-Based Change</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Learn More -></div>
                 </div>
-                 <!-- Lesson 4 -->
+                 <!-- Principle 4 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">04</div>
-                    <h3 class="text-2xl font-serif">Everything is Imperfect</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs text-primary-700 font-bold">04</div>
+                    <h3 class="text-2xl font-serif">Calm Confidence</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Learn More -></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Book Section -->
+    <!-- For Founders Section -->
     <section class="py-32 max-w-5xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
-                <p class="text-2xl font-serif leading-relaxed mb-8">
-                    Get started today with the app based on the NYT best-seller that has already helped over 20 million people.
+                <p class="text-sm uppercase tracking-widest text-gray-500 mb-4">Built for founders</p>
+                <h2 class="text-4xl md:text-5xl font-serif leading-tight mb-8">
+                    You already know what matters. We help you do it daily.
+                </h2>
+                <p class="text-gray-600 leading-relaxed mb-8">
+                    HabitStackr isn't trying to convince you to become a different person. It provides infrastructure for founders and creators who need consistency, not inspiration.
                 </p>
                 <AppButtons />
             </div>
             <div class="flex justify-center relative">
-                <!-- Book Cover Placeholder -->
-                <div class="w-64 aspect-[2/3] bg-[#EAE4D3] shadow-2xl relative flex flex-col items-center justify-center text-center p-6 border-l-4 border-gray-200">
-                    <p class="text-xs uppercase tracking-widest text-gray-500 mb-4">New York Times Bestseller</p>
-                    <h3 class="text-3xl font-serif font-bold text-gray-800 mb-1">Atomic<br>Habits</h3>
-                    <p class="text-sm text-gray-600 mt-4">Tiny Changes,<br>Remarkable Results</p>
-                    <div class="mt-auto pt-8 text-sm font-bold text-gray-800">James Clear</div>
-                    
-                    <!-- Decorative dots -->
-                    <div class="absolute top-4 right-4 w-2 h-2 bg-orange-400 rounded-full"></div>
+                <!-- Stats Card -->
+                <div class="w-full max-w-sm bg-white shadow-xl rounded-2xl p-8 border border-gray-100">
+                    <div class="space-y-6">
+                        <div class="pb-6 border-b border-gray-100">
+                            <div class="text-sm text-gray-500 mb-2">Target Market</div>
+                            <div class="text-3xl font-serif font-bold">$4.5B</div>
+                            <div class="text-xs text-gray-400 mt-1">Wellness market</div>
+                        </div>
+                        <div class="pb-6 border-b border-gray-100">
+                            <div class="text-sm text-gray-500 mb-2">Daily Action</div>
+                            <div class="text-3xl font-serif font-bold">&lt;60s</div>
+                            <div class="text-xs text-gray-400 mt-1">Check-in time</div>
+                        </div>
+                        <div>
+                            <div class="text-sm text-gray-500 mb-2">Focus</div>
+                            <div class="text-3xl font-serif font-bold">1-5</div>
+                            <div class="text-xs text-gray-400 mt-1">Habits maximum</div>
+                        </div>
+                    </div>
                 </div>
-                 <div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-[#F2EBE0] rounded-full opacity-50 blur-2xl"></div>
+                 <div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primary-100 rounded-full opacity-30 blur-2xl"></div>
             </div>
         </div>
     </section>
@@ -402,16 +447,16 @@
     <section class="bg-[#1C1C1C] text-white py-32">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-                <h2 class="text-2xl font-serif mb-12">See what people are saying about Atoms</h2>
-                <h3 class="text-5xl md:text-7xl font-serif leading-tight">Love the<br>flexibility.</h3>
+                <h2 class="text-2xl font-serif mb-12">What founders are saying</h2>
+                <h3 class="text-5xl md:text-7xl font-serif leading-tight">Finally,<br>consistency<br>without<br>friction.</h3>
             </div>
             <div class="flex flex-col justify-end">
                 <p class="text-gray-400 text-lg leading-relaxed mb-8">
-                    "The personalized focus of the habit you create make it unique and non-standardized. Minimalistic but inviting style UI. I never feel overwhelmed, making it a normal, human experience. Love the measurement/assessment and introspection. This program is encouraging but unobtrusive. Great job!"
+                    "I've tried every habit app. They all wanted me to journal, reflect, and optimize. HabitStackr just lets me check in and move on. The streak visibility keeps me honest, and seeing my group show up daily creates just enough pressure without being annoying. It's the only system that's stuck."
                 </p>
                 <div>
-                    <p class="font-bold">User from USA</p>
-                    <p class="text-sm text-gray-500">App Store Review</p>
+                    <p class="font-bold">Sarah Chen</p>
+                    <p class="text-sm text-gray-500">Founder, indie hacker</p>
                 </div>
                 <div class="mt-12 flex justify-end">
                     <button class="text-white hover:opacity-70 transition-opacity">
@@ -436,7 +481,7 @@
             <div class="flex justify-center relative z-10">
                  <PhoneMockup>
                      <div class="flex items-center justify-center h-full bg-white">
-                         <h1 class="text-4xl font-serif">Atoms.</h1>
+                         <h1 class="text-4xl font-serif">Habir.</h1>
                      </div>
                  </PhoneMockup>
             </div>
@@ -451,7 +496,7 @@
             <div class="mb-16">
                 <!-- Big Logo -->
                  <div class="relative inline-block">
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Atoms</span>
+                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Habir</span>
                     <span class="text-[120px] md:text-[180px] font-serif leading-none text-red-600">.</span>
                     <!-- Apple Illustration overlay on the 'o' if possible, or just use text for now as requested 1:1 but simplified -->
                     <!-- The screenshot shows an apple replacing the 'o' or near it. Let's try to make the 'o' an apple -->
@@ -490,7 +535,7 @@
 
             <div class="flex flex-col md:flex-row items-center justify-between w-full border-t border-gray-200 pt-12 gap-8">
                 <div class="text-xs text-gray-400">
-                    © 2024 Atoms Inc.
+                    © 2024 Habir Inc.
                 </div>
                 <div class="flex gap-6">
                     <!-- Social Icons -->
