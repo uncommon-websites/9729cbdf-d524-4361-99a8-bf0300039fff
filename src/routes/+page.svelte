@@ -6,19 +6,19 @@
 <div class="w-full overflow-hidden">
     <!-- Header -->
     <header class="w-full py-8 flex flex-col items-center justify-center text-center">
-        <h1 class="text-4xl font-serif font-medium tracking-tight">Atoms.</h1>
-        <p class="text-xs uppercase tracking-widest text-gray-500 mt-2 font-sans">The official Atomic Habits app</p>
+        <h1 class="text-4xl font-serif font-medium tracking-tight">HabitStackr</h1>
+        <p class="text-xs uppercase tracking-widest text-gray-500 mt-2 font-sans">Daily habits, made inevitable</p>
     </header>
 
     <!-- Hero Section -->
     <section class="max-w-7xl mx-auto px-6 pt-12 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="flex flex-col items-start space-y-8">
             <h2 class="text-6xl md:text-7xl font-serif leading-[1.1]">
-                Tiny changes,<br/>
-                remarkable results.
+                Systems over<br/>
+                motivation.
             </h2>
             <p class="text-gray-600 max-w-md leading-relaxed">
-                Based on the easy and proven habit change method from the NYT best-seller, Atom's helps you build good habits and break bad ones.
+                For founders and creators who need daily consistency. Visible streaks, community accountability, and one-minute check-ins make your habits inevitable.
             </p>
             <div class="pt-2">
                 <AppButtons />
@@ -35,24 +35,45 @@
             
             <PhoneMockup>
                 <!-- Mockup Content -->
-                <div class="flex flex-col h-full p-6 items-center pt-16">
-                    <h3 class="text-3xl font-serif text-center mb-2">Create your<br>first habit</h3>
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mt-4">
-                        <span class="text-2xl">☀️</span>
+                <div class="flex flex-col h-full p-6 pt-16 bg-white">
+                    <div class="text-xs uppercase tracking-widest text-gray-500 mb-4">Today</div>
+                    <div class="space-y-3 flex-1">
+                        <!-- Habit 1 -->
+                        <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+                            <div class="w-6 h-6 bg-primary-500 rounded flex items-center justify-center text-white text-xs font-bold">✓</div>
+                            <div class="flex-1">
+                                <div class="text-sm font-medium">Morning pages</div>
+                                <div class="text-xs text-gray-500">47 day streak</div>
+                            </div>
+                        </div>
+                        <!-- Habit 2 -->
+                        <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+                            <div class="w-6 h-6 border-2 border-gray-300 rounded"></div>
+                            <div class="flex-1">
+                                <div class="text-sm font-medium">Ship something</div>
+                                <div class="text-xs text-gray-500">12 day streak</div>
+                            </div>
+                        </div>
+                        <!-- Habit 3 -->
+                        <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+                            <div class="w-6 h-6 border-2 border-gray-300 rounded"></div>
+                            <div class="flex-1">
+                                <div class="text-sm font-medium">Exercise</div>
+                                <div class="text-xs text-gray-500">31 day streak</div>
+                            </div>
+                        </div>
                     </div>
-                    <button class="bg-black text-white px-8 py-3 rounded-full w-full font-medium mt-auto mb-12">
-                        Create Habit ->
-                    </button>
+                    <div class="text-center text-xs text-gray-400 mt-4">3 people in your group checked in today</div>
                 </div>
             </PhoneMockup>
         </div>
     </section>
 
-    <!-- Dark Section (Laws) -->
+    <!-- Dark Section (The Consistency Loop) -->
     <section class="bg-[#1C1C1C] text-white py-24 overflow-hidden relative">
         <div class="max-w-7xl mx-auto px-6 mb-16">
             <p class="text-xl md:text-2xl font-serif max-w-lg leading-relaxed text-gray-300">
-                Atoms is the only app built on scientifically-backed laws of habit change.
+                The Consistency Loop: How HabitStackr transforms behavior into identity.
             </p>
         </div>
 
@@ -60,50 +81,53 @@
             <div class="flex whitespace-nowrap px-6 gap-4 md:gap-12 items-center">
                  <!-- Item 1 -->
                  <div class="inline-flex items-baseline">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light text-transparent stroke-text opacity-50" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">1.</span>
+                    <span class="text-[120px] md:text-[180px] font-serif font-light text-primary-500">1.</span>
                     <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Make it</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">obvious.</span>
+                        <span class="text-5xl md:text-7xl font-serif font-bold">Visibility</span>
+                        <span class="text-5xl md:text-7xl font-serif text-gray-400">creates pressure</span>
                     </div>
                  </div>
                  
                  <!-- Item 2 -->
                  <div class="inline-flex items-baseline ml-12 md:ml-24">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light text-[#E6D8C0]">2.</span>
+                    <span class="text-[120px] md:text-[180px] font-serif font-light text-primary-400">2.</span>
                     <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Make it</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">attractive.</span>
+                        <span class="text-5xl md:text-7xl font-serif font-bold">Pressure</span>
+                        <span class="text-5xl md:text-7xl font-serif text-gray-400">creates consistency</span>
                     </div>
                  </div>
 
-                 <!-- Hint of Item 3 -->
-                   <div class="inline-flex items-baseline ml-12 md:ml-24 opacity-20">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light">3.</span>
+                 <!-- Item 3 -->
+                   <div class="inline-flex items-baseline ml-12 md:ml-24">
+                    <span class="text-[120px] md:text-[180px] font-serif font-light text-primary-300">3.</span>
+                    <div class="flex flex-col ml-4">
+                        <span class="text-5xl md:text-7xl font-serif font-bold">Consistency</span>
+                        <span class="text-5xl md:text-7xl font-serif text-gray-400">creates identity</span>
+                    </div>
                  </div>
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 mt-12 flex justify-end">
-            <div class="flex gap-2">
-                <div class="w-3 h-3 rounded-full bg-white"></div>
-                <div class="w-3 h-3 rounded-full bg-gray-600"></div>
-            </div>
+        <div class="max-w-7xl mx-auto px-6 mt-12">
+            <p class="text-gray-500 text-sm max-w-md">
+                Show up once per day. The system carries the rest.
+            </p>
         </div>
     </section>
 
     <!-- Why we're different -->
     <section class="py-32 max-w-5xl mx-auto px-6">
         <div class="text-center mb-24">
-            <p class="text-sm uppercase tracking-widest text-gray-500">Why we're different</p>
+            <p class="text-sm uppercase tracking-widest text-gray-500">Built for consistency</p>
         </div>
 
         <div class="space-y-32">
             <!-- Feature 1 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We know<br>what really<br>works</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Systems<br>over<br>motivation</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We don't rely on guesswork. Our principles of habit change make it obvious, attractive, easy, and satisfying.
+                        Motivation is unreliable. We build structure and visibility that makes habits automatic, not dependent on how you feel.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
@@ -123,9 +147,9 @@
             <!-- Feature 2 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We meet<br>you where<br>you are</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Fewer<br>habits,<br>not more</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Whether you're just starting or already on a roll, we have the right tools to help you find your balance.
+                        Track 1-5 habits maximum. Tracking everything leads to tracking nothing. Focus on what meaningfully moves your life forward.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
@@ -146,9 +170,9 @@
             <!-- Feature 3 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We evolve<br>as you<br>evolve</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Community<br>without<br>noise</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Building tiny habits leads to remarkable results. We scale up just like you do, one step at a time.
+                        No algorithmic feed. No vanity posting. No engagement farming. Just curated accountability with people who show up daily.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
@@ -168,9 +192,9 @@
              <!-- Feature 4 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We're in it<br>for the<br>long-haul</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Spreadsheet<br>clarity,<br>zero clutter</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We support you in creating habits that last, focusing on consistency over intensity.
+                        Data-driven design with no-nonsense functionality. See your progress at a glance without overwhelming visuals or excessive celebration.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
@@ -191,9 +215,9 @@
              <!-- Feature 5 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We know<br>what it<br>takes to<br>show up</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Privacy-first<br>accountability</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We understand the ups and downs. We help you get back on track without shame or guilt.
+                        Control what others see. Keep habits private, redacted, or visible. Social accountability exists even when details stay hidden.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
@@ -215,7 +239,7 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
                 <p class="text-2xl md:text-3xl font-serif leading-relaxed mb-8">
-                    Build good habits, break bad ones, and make better decisions in just five good minutes a day. Get started today and cast a vote for future you.
+                    One-minute check-ins. Visible streaks. Community accountability. Show up once per day, and the system carries the rest.
                 </p>
                 <AppButtons />
             </div>
@@ -237,9 +261,9 @@
     <!-- Dark Cards Section -->
     <section class="py-24">
         <div class="max-w-4xl mx-auto px-6 mb-16">
-            <h2 class="text-4xl font-serif">Atoms is designed to help you<br>take action.</h2>
+            <h2 class="text-4xl font-serif">HabitStackr is designed for<br>execution over reflection.</h2>
             <p class="text-gray-500 mt-4 max-w-md">
-                Our core features are designed to help you build power habits, track progress, and make lasting change.
+                Simple tools that prioritize doing over thinking. No endless self-analysis, just consistent action.
             </p>
         </div>
 
