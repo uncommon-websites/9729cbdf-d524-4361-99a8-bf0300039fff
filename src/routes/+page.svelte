@@ -27,8 +27,8 @@
         
         <div class="relative flex justify-center items-center">
             <!-- Abstract Background Shapes -->
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] opacity-50 pointer-events-none">
-                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full h-full fill-[#F2EBE0]">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] opacity-20 pointer-events-none">
+                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full h-full fill-primary-200">
                     <path d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.2,-19.2,95.8,-5.2C93.4,8.8,81.8,21.9,71.2,33.7C60.6,45.4,51,55.8,39.9,64.4C28.8,73,16.2,79.8,2.6,75.3C-11,70.8,-25.6,55,-38.7,42.5C-51.8,30,-63.4,20.8,-69.3,8.7C-75.2,-3.4,-75.4,-18.4,-68.8,-31.6C-62.2,-44.8,-48.8,-56.2,-35.4,-63.8C-22,-71.4,-8.6,-75.2,5.2,-84.2C19,-93.2,30.5,-107.4,44.7,-76.4Z" transform="translate(100 100)" />
                   </svg>
             </div>
@@ -139,7 +139,7 @@
                             <path d="M75,105 Q65,85 85,75 Q105,65 125,75 Q145,85 135,105 Q125,125 105,125 Q85,125 75,105 Z" />
                             <path d="M90,70 Q80,50 100,40 Q120,30 140,40 Q160,50 150,70 Q140,90 120,90 Q100,90 90,70 Z" />
                         </svg>
-                        <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                        <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                              <!-- Simplified abstract representation -->
                              <circle cx="100" cy="110" r="40" class="stroke-black" />
                         </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,7 @@
                             <circle cx="150" cy="50" r="10" />
                             <rect x="40" y="140" width="20" height="20" transform="rotate(45 50 150)" />
                         </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                             <path d="M100,100 L120,110" />
                             <path d="M90,40 L110,40" />
                         </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@
                          <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
                             <path d="M100,160 C100,160 40,100 40,60 C40,30 70,30 100,60 C130,30 160,30 160,60 C160,100 100,160 100,160 Z" />
                         </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                         <path d="M70,100 L130,100" />
                         <path d="M70,140 L130,140" />
                     </svg>
-                    <div class="absolute -z-10 bottom-0 left-10 w-40 h-20 bg-[#E6D8C0] rounded-full opacity-50 blur-xl"></div>
+                    <div class="absolute -z-10 bottom-0 left-10 w-40 h-20 bg-primary-200 rounded-full opacity-50 blur-xl"></div>
                 </div>
             </div>
         </div>
@@ -474,14 +474,21 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="relative z-10">
                 <p class="text-3xl font-serif leading-relaxed mb-8 max-w-md">
-                    Share Atoms with a friend and support each other in making tiny changes for remarkable results.
+                    Join the invite-driven community. Find accountability partners who show up daily.
                 </p>
                 <AppButtons />
             </div>
             <div class="flex justify-center relative z-10">
                  <PhoneMockup>
-                     <div class="flex items-center justify-center h-full bg-white">
-                         <h1 class="text-4xl font-serif">Habir.</h1>
+                     <div class="flex flex-col items-center justify-center h-full bg-white p-6">
+                         <h1 class="text-4xl font-serif mb-2">HabitStackr</h1>
+                         <p class="text-xs text-gray-500 uppercase tracking-widest">Daily habits, made inevitable</p>
+                         <div class="mt-8 w-full max-w-[200px]">
+                             <div class="bg-gray-50 rounded-lg p-4 text-center">
+                                 <div class="text-sm text-gray-600 mb-2">You've been invited to join</div>
+                                 <div class="text-lg font-bold">Founder Circle</div>
+                             </div>
+                         </div>
                      </div>
                  </PhoneMockup>
             </div>
@@ -496,34 +503,26 @@
             <div class="mb-16">
                 <!-- Big Logo -->
                  <div class="relative inline-block">
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Habir</span>
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none text-red-600">.</span>
-                    <!-- Apple Illustration overlay on the 'o' if possible, or just use text for now as requested 1:1 but simplified -->
-                    <!-- The screenshot shows an apple replacing the 'o' or near it. Let's try to make the 'o' an apple -->
-                     <div class="absolute top-[45%] left-[68%] -translate-x-1/2 -translate-y-1/2 w-[90px] h-[100px] md:w-[130px] md:h-[140px]">
-                         <!-- Apple SVG -->
-                         <svg viewBox="0 0 100 120" class="w-full h-full fill-[#E84E36]">
-                             <path d="M50,30 C30,30 10,40 10,70 C10,100 30,115 50,115 C70,115 90,100 90,70 C90,40 70,30 50,30 Z" />
-                             <path d="M50,30 C50,30 55,10 45,5" stroke="#3E2723" stroke-width="3" fill="none"/>
-                         </svg>
-                     </div>
+                    <span class="text-[120px] md:text-[180px] font-serif leading-none">HabitStackr</span>
                  </div>
+                 <p class="text-sm text-gray-500 mt-4 uppercase tracking-widest">Daily habits, made inevitable</p>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16 text-sm text-gray-600">
                 <div class="flex flex-col gap-3 text-left md:text-center">
-                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Introduction</span>
-                    <a href="#">Method</a>
-                    <a href="#">Story</a>
+                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Product</span>
+                    <a href="#">How it works</a>
+                    <a href="#">Principles</a>
+                    <a href="#">Pricing</a>
                 </div>
                 <div class="flex flex-col gap-3 text-left md:text-center">
-                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Coaching</span>
-                    <a href="#">1-on-1 Coaching</a>
-                    <a href="#">FAQ</a>
+                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Community</span>
+                    <a href="#">Join waitlist</a>
+                    <a href="#">For founders</a>
                 </div>
                  <div class="flex flex-col gap-3 text-left md:text-center">
                     <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Company</span>
-                    <a href="#">Newsletter</a>
+                    <a href="#">About</a>
                     <a href="#">Contact</a>
                 </div>
                  <div class="flex flex-col gap-3 text-left md:text-center">
@@ -535,7 +534,7 @@
 
             <div class="flex flex-col md:flex-row items-center justify-between w-full border-t border-gray-200 pt-12 gap-8">
                 <div class="text-xs text-gray-400">
-                    © 2024 Habir Inc.
+                    © 2024 HabitStackr
                 </div>
                 <div class="flex gap-6">
                     <!-- Social Icons -->
